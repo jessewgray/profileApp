@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Page Title</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./static/js/script.js"></script>
+	</head>
+	<body>
+
+		<form action="/send" method="POST" enctype="multipart/form-data">
+			<label for="fName" name="fNameLabel">firstName</label>
+			<input type="text" name="fName" id="fName" value="">
+			<label for="lName" name="lNameLabel">lastName</label>
+			<input type="text" name="lName" id="lName" value="">
+			<input type="file" name="picture" id="picture" accept="image/png, image/jpeg">
+			<input type="Submit" name="Submit" value="Submit">
+		</form>
+
+	</body>
+</html>

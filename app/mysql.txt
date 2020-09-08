@@ -1,0 +1,14 @@
+USE people;
+
+
+CREATE TABLE person (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	firstName varchar(30),
+    	lastName varchar(30), 
+    	profilePic varchar(255)
+);
+
+
+
+    
+SELECT * FROM people.person;
